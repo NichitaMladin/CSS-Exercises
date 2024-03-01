@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-shadow: 5px 5px 5px orange;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+p{
+    word-spacing:-3px;
+    text-indent: 75px;
+}
