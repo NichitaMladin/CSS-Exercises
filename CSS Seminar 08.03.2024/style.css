@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.container{
+    height: 100%;
+}
+
+.page_container{
+    display: flex;
+    height: 100%;
+}
+
+.page_register_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    background-color: red;
+}
+
+.register_card{
+    width: 90%;
+    height: 80%;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    box-shadow: black 8px 3px 8px;
+}
+
+.welcome_text_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+
+.register_form{
+    border: 1px solid black;
+    height: 90%;
+}
+
+
+.page_logo_container{
+    width: 65%;
+    background-color: green;
+}
