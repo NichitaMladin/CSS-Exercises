@@ -10,14 +10,42 @@
         <main class="page-container">
             <section class="page_register_container container">
                 <div class="register_card">
-                    <div class = "welcome_text_container"></div>
-                    <h1>Welcome, please sign up</h1>
+                    <div class = "welcome_text_container">
+                        <h1>Welcome, please sign up</h1>
+                    </div>
                     <form class="register_form">
-
+                        <div class="input_container">
+                            <label class="input_label">First Name</label>
+                            <input type="text" class="input_style" maxlength="8"/>
+                        </div>
+                        <div class="input_container">
+                            <label class="input_label">Last Name</label>
+                            <input type="text" class="input_style" maxlength="8"/>
+                        </div>
+                        <div class="input_container">
+                            <label class="input_label">Email</label>
+                            <input type="email" class="input_style"/>
+                        </div>
+                        <div class="input_container">
+                            <label class="input_label">Password</label>
+                            <input type="password" class="input_style" maxlength="10"/>
+                        </div>
+                        <div class="input_container">
+                            <label class="input_label">Phone Number</label>
+                            <input type="number" class="input_style"/>
+                        </div>
+                        <div class="input_container">
+                            <label class="input_label">Gen</label>
+                            <input type="radio" name="gen" class="input_style gen">Feminin
+                            <input type="radio" name="gen" class="input_style gen">Masculin
+                        </div>
+                        <button class="button_trimitere" type="submit">Send</button>
                     </form>
                 </div>
             </section>
-            <div class="page_logo_container container">2</div>
+            <section class="page_logo_container container">2
+                <img class="poza_logo" src="logo.avif" alt="poza logo"/>
+            </section>
         </main>
     </body>
 </html>

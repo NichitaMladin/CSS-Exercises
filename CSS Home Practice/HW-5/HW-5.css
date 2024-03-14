@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.static{
+    border: 1px dotted black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.relative{
+    border: 1px dotted black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.absolute{
+    border: 1px dotted black;
+    height: 150px;
+    /* width: 75%; */
+    display: inline-flex;
+    gap: 15px;
+    position: relative;
+}
+
+p{
+    margin: 15px 20px;
+}
+
+.blocuri{
+    background-color: red;
+    height: 150px;
+    width: 24vw;
+}
+
+.special{
+    background-color: green;
+}
+
+.rel{
+    position: relative;
+    left: 15px;
+    top: 20px
+}
+
+.abs{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
